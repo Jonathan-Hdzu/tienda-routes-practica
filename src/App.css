@@ -12,6 +12,16 @@ header {
     font-family: "Poppins", cursive;
     max-height: 7rem;
 }
+@media (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        max-height: 12rem;;
+    }
+    nav{
+        margin-top: 12px;
+    }
+}
 .container{
     margin-top: 4rem;
     width: 60%;
@@ -89,4 +99,10 @@ ul, li {
     padding: 12px;
     border-radius: 5px;
     margin-top: 2rem;
+}
+@media (max-width: 768px) {
+    .detalles_movil{
+        width: 100%;
+    }
+   
 }
