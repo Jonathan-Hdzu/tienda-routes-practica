@@ -1,0 +1,30 @@
+
+body {
+  
+  /* place-items: center; */
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+/* header {
+  display: flex;
+  background-color: blanchedalmond;
+  flex-direction: row;
+  align-content: center;
+  padding: 5px;
+  
+} */
+nav ul{
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
