@@ -88,6 +88,14 @@ ul, li {
     background-color: #e84393;
     color: #eff6f7;
 }
+.home-info{
+    background-color: #dfe6e9;
+}
+.home-info:hover {
+    background-color: #e84393;
+    color: #eff6f7;
+}
+
 .detalles:hover {
     background-color: #a29bfe;
     color: #eff6f7;
@@ -105,4 +113,15 @@ ul, li {
         width: 100%;
     }
    
+}
+.detalles_movil--titulo{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    color: #e84393;
+    font-weight: 700;
+}
+.detalles_movil--descripcion{
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 400;
 }

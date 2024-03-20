@@ -12,9 +12,9 @@ const CelularDetails = () => {
     return (
       <div className="container detalles_movil">
         <h3>Detalles del {nameCelular} </h3>
-        <h4 className="detalles_movil--titulo"> Modelo: {detalles.modelo} </h4>
-        <h4 className="detalles_movil--titulo"> Precio: {detalles.precio} </h4>
-        <h4 className="detalles_movil--titulo"> Detalles: {detalles.desc} </h4>
+        <h4 className="detalles_movil--titulo"> Modelo: <span className="detalles_movil--descripcion">{detalles.modelo}</span> </h4>
+        <h4 className="detalles_movil--titulo"> Precio: <span className="detalles_movil--descripcion">{detalles.precio}</span> </h4>
+        <h4 className="detalles_movil--titulo"> Detalles: <span className="detalles_movil--descripcion">{detalles.desc} </span></h4>
       </div>
     )
 };

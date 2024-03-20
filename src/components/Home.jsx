@@ -12,7 +12,7 @@ const Home = () => {
         <h2>Pagina oficial de ventas de Smartphones</h2>
         <p>Somos una tienda amantes de los smartphones. Nuestro principal gusto son los smarthphones Android, escondemos un gusto especial con la marca Samsung, sin embargo, ofrecemos una amplia gama de celulares. </p>
         <ThemeProvider theme={theme}>
-        <Link to= "/search-page"><Button>Ver más</Button></Link>
+        <Link to= "/search-page" ><Button className="home-info">Ver más</Button></Link>
         </ThemeProvider>
       </div>
     </ThemeProvider>
