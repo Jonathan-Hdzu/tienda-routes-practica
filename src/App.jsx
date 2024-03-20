@@ -20,7 +20,7 @@ function App() {
               <NvLink to="/">Home</NvLink>
             </li>
             <li>
-              <NvLink to="/search-page">Pagina de busqueda</NvLink>
+              <NvLink to="/search-page">Catalogo</NvLink>
             </li>
           </ul>
         </nav>

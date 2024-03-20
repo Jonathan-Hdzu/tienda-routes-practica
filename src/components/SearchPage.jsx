@@ -10,7 +10,6 @@ import {
 import { CenterInfo } from "../styles/styles.componets/styles-comp";
 
 const SearchPage = () => {
-  // const celulares = '/Celulares';
   const celulares = ["Samsung", "Iphone", "LG", "Xiaomi"];
 
   return (
